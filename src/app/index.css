@@ -1,1 +1,17 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+:root{
+    --primary: #ffffff;
+    --secondary: #ffffff6f;
+    --width: 50vw;
+    --font-instrument-serif: "Instrument Serif", serif;
+    --card-bg: #1f1d1da5;
+}
+body{   
+    background: #000000cd;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
