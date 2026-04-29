@@ -4,6 +4,14 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaPaperclip } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import SocialButton from "./SocialButton";
+
+const links = {
+    "github":"https://github.com/PrRj06",
+    "linkedin":"https://www.linkedin.com/in/prabhat06/",
+    "email":"mailto:prabhat.rj06@gmail.com",
+    "twitter":"https://x.com/_prabhat06"
+}
+
 function ProfileHeader(){
     return(
         <>
@@ -17,11 +25,11 @@ function ProfileHeader(){
                         </p>
                     </div>
                     <div className="w-fit h-fit flex gap-3">
-                        <SocialButton icon={FaGithub} label="Github"/>
-                        <SocialButton icon={FaLinkedin} label="LinkedIn"/>
-                        <SocialButton icon={FaXTwitter} label="Twitter"/>
-                        <SocialButton icon={IoMdMail} label="Email"/>
-                        <SocialButton icon={FaPaperclip} label="Resume"/>
+                        <SocialButton icon={FaGithub} label="Github" link={links.github}/>
+                        <SocialButton icon={FaLinkedin} label="LinkedIn" link={links.linkedin}/>
+                        <SocialButton icon={FaXTwitter} label="Twitter" link={links.twitter}/>
+                        <SocialButton icon={IoMdMail} label="Email" link={links.email}/>
+                        <SocialButton icon={FaPaperclip} label="Will be updated soon" link={"https://www.google.com"}/>
                     </div>
                 </div>
             </div>
