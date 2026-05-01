@@ -2,14 +2,17 @@ import './App.css'
 import ProfileHeader from '../components/ProfileHeader';
 import Banner from '../components/Banner';
 import GitActivity from '../components/GitActivity';
+import About from '../components/About';
 function App() {
   return (
     <>
-      <Banner/>
-      <ProfileHeader/>
-      <GitActivity
-        username="PrRj06"
-      />
+      <div className='max-w-4xl mx-auto'>
+        <div className='mx-auto sm:w-[calc(100%-120px)] w-full max-w-4xl sm:px-0'></div>
+        <Banner/>
+        <ProfileHeader/>
+        <About/>
+        <GitActivity username="PrRj06"/>
+      </div>
     </>
   )
 }

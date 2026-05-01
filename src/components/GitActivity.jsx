@@ -3,8 +3,8 @@ function GitActivity({username}){
     return(
         <>
             <hr className='text-(--secondary)'/>
-            <div className="bg-(--card-bg) px-10 py-3">
-                <p className="text-(--secondary) text-2xl my-5">
+            <div className="bg-(--card-bg) px-10 py-5 w-full">
+                <p className="text-(--secondary) text-2xl mb-5">
                     Github Contributions • 
                     <span className="italic">@{username}</span>
                 </p>

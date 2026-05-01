@@ -17,7 +17,7 @@ function ProfileHeader(){
         <>
             <div className="w-full px-(--padding-x) py-5 bg-[#1f1d1da5]">
                 <div className="relative z-10 -mt-15 w-24 h-24 bg-[url('/luffy.jpg')] bg-cover bg-center rounded-full overflow-hidden"></div>
-                <div className="min-w-3xl h-fit flex justify-between items-center ">
+                <div className="w-full h-fit flex justify-between items-center ">
                     <div className="w-fit h-fit flex flex-col">
                         <p className="text-(--primary) text-4xl [font-family:var(--font-instrument-serif)]">Prabhat Ranjan</p>
                         <p className="text-(--secondary) font-medium text-xs flex items-center gap-1">
