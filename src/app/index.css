@@ -7,6 +7,7 @@
     --width: 50vw;
     --font-instrument-serif: "Instrument Serif", serif;
     --card-bg: #1f1d1da5;
+    --padding-x: 2.5rem;
 }
 body{   
     background: #000000cd;
