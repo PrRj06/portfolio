@@ -3,7 +3,7 @@ import ProfileHeader from '../components/ProfileHeader';
 import Banner from '../components/Banner';
 import GitActivity from '../components/GitActivity';
 import About from '../components/About';
-import TechIcon from '../components/TechIcon';
+import TechStack from '../components/TechStack';
 function App() {
   return (
     <>
@@ -13,7 +13,7 @@ function App() {
         <ProfileHeader/>
         <About/>
         <GitActivity username="PrRj06"/>
-        <TechIcon/>
+        <TechStack/>
       </div>
     </>
   )

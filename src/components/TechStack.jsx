@@ -1,4 +1,4 @@
-function TechIcon(){
+function TechStack(){
     const items = [
         // languages
         { name: "JavaScript", src: "/tech-icons/js.svg" },
@@ -48,4 +48,4 @@ function TechIcon(){
         </>
     )
 }
-export default TechIcon;
+export default TechStack;
