@@ -4,7 +4,7 @@ function GitActivity({username}){
         <>
             <hr className='text-(--secondary)'/>
             <div className="bg-(--card-bg) px-10 py-5 w-full">
-                <p className="text-(--secondary) text-2xl mb-5">
+                <p className="text-base sm:text-xl text-(--secondary) [font-family:var(--font-instrument-serif)] my-5 sm:mt-6 ">
                     Github Activity • 
                     <span className="italic">@{username}</span>
                 </p>
