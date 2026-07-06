@@ -29,7 +29,7 @@ function ProfileHeader(){
                         <SocialButton icon={FaLinkedin} label="LinkedIn" link={links.linkedin}/>
                         <SocialButton icon={FaXTwitter} label="Twitter" link={links.twitter}/>
                         <SocialButton icon={IoMdMail} label="Email" link={links.email}/>
-                        <SocialButton icon={FaPaperclip} label="Will be updated soon" link={"https://www.google.com"}/>
+                        <SocialButton icon={FaPaperclip} label="Resume" link={"https://www.google.com"}/>
                     </div>
                 </div>
             </div>
