@@ -10,10 +10,6 @@ function ProofOfWork(){
                 <div className="w-full grid grid-cols-2 justify-items-center gap-3">
                     <ProjectBanner imagePath="/coming-soon.jpeg" projectName="Comming Soon"/>
                     <ProjectBanner imagePath="/coming-soon.jpeg" projectName="Comming Soon"/>
-                    <ProjectBanner imagePath="/coming-soon.jpeg" projectName="Comming Soon"/>
-                    <ProjectBanner imagePath="/coming-soon.jpeg" projectName="Comming Soon"/>
-                    <ProjectBanner imagePath="/coming-soon.jpeg" projectName="Comming Soon"/>
-                    <ProjectBanner imagePath="/coming-soon.jpeg" projectName="Comming Soon"/>
                 </div>
             </div>
         </>

@@ -5,7 +5,7 @@ function Banner(){
                 <img 
                     width={1240}
                     height={900}
-                    className="w-full h-45 sm:h-[270px] object-cover"
+                    className="w-full h-45 sm:h-67.5 object-cover"
                     src="/cover-pic.jpg"
                 />
             </div>
