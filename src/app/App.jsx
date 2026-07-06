@@ -5,6 +5,7 @@ import GitActivity from '../components/GitActivity';
 import About from '../components/About';
 import TechStack from '../components/TechStack';
 import ProofOfWork from '../components/ProofOfWork';
+import Quote from '../components/Quote';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <ProofOfWork/>
         <GitActivity username="PrRj06"/>
         <TechStack/>
+        <Quote/>
       </div>
     </>
   )
