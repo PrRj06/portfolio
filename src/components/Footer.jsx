@@ -1,4 +1,4 @@
-import NameText from "./NameText";
+import Quote from "./Quote";
 import Copyright from "./Copyright";
 import SocialButton from "./SocialButton";
 
@@ -13,20 +13,24 @@ const links = {
 }
 
 function Footer() {
-  return (
-    <footer className="w-full overflow-hidden bg-black py-10">
-      <NameText />
-      
-      <div className="z-10  mt-6 flex w-full flex-col items-center justify-between gap-3 px-4 sm:flex-row">
-        <Copyright />
-        <div className="w-fit h-fit flex gap-3">
-            <SocialButton icon={FaGithub} label="Github" link={links.github}/>
-            <SocialButton icon={FaLinkedin} label="LinkedIn" link={links.linkedin}/>
-            <SocialButton icon={FaXTwitter} label="Twitter" link={links.twitter}/>
-        </div>
-      </div>
-    </footer>
-  );
+    return (
+        <>
+            <hr className='text-(--secondary)'/>
+            <footer className="w-full overflow-hidden bg-(--card-bg) px-(--padding-x) py-9">
+                <Quote />
+                <div className="mt-6 flex w-full flex-col items-center justify-between gap-5 text-center sm:flex-row sm:text-left">
+                    <div className="flex flex-col gap-1">
+                        <Copyright />
+                    </div>
+                    <div className="flex h-fit w-fit items-center gap-3">
+                        <SocialButton icon={FaGithub} label="Github" link={links.github}/>
+                        <SocialButton icon={FaLinkedin} label="LinkedIn" link={links.linkedin}/>
+                        <SocialButton icon={FaXTwitter} label="Twitter" link={links.twitter}/>
+                    </div>
+                </div>
+            </footer>
+        </>
+    );
 }
 
 export default Footer;
