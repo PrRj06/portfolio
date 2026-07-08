@@ -9,8 +9,7 @@ import Footer from '../components/Footer';
 function App() {
   return (
     <>
-      <div className='max-w-4xl mx-auto '>
-        <div className='mx-auto sm:w-[calc(100%-120px)] w-full max-w-4xl sm:px-0'></div>  
+      <div className='mx-auto w-full max-w-full sm:px-4 md:max-w-4xl md:px-0'>
         <Banner/>
         <ProfileHeader/>
         <About/>

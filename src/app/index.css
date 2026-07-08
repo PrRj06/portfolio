@@ -9,11 +9,17 @@
     --card-bg: #1f1d1da5;
     --padding-x: 2.5rem;
 }
+html,
+body,
+#root{
+    width: 100%;
+}
 body{   
     background: #000000cd;
     display: flex;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: clip;
 }
+

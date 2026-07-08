@@ -16,13 +16,13 @@ function Footer() {
     return (
         <>
             <hr className='text-(--secondary)'/>
-            <footer className="w-full overflow-hidden bg-(--card-bg) px-(--padding-x) py-9">
+            <footer className="w-full overflow-hidden bg-(--card-bg) px-3 py-9 sm:px-4 md:px-(--padding-x)">
                 <Quote />
                 <div className="mt-6 flex w-full flex-col items-center justify-between gap-5 text-center sm:flex-row sm:text-left">
                     <div className="flex flex-col gap-1">
                         <Copyright />
                     </div>
-                    <div className="flex h-fit w-fit items-center gap-3">
+                    <div className="flex h-fit w-fit flex-wrap items-center justify-center gap-3 sm:justify-start">
                         <SocialButton icon={FaGithub} label="Github" link={links.github}/>
                         <SocialButton icon={FaLinkedin} label="LinkedIn" link={links.linkedin}/>
                         <SocialButton icon={FaXTwitter} label="Twitter" link={links.twitter}/>

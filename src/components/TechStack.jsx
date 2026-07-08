@@ -26,7 +26,7 @@ function TechStack(){
     return(
         <>  
             <hr className='text-(--secondary)'/>
-            <div className="px-(--padding-x) py-5 bg-(--card-bg)">
+            <div className="px-3 py-5 sm:px-4 md:px-(--padding-x) bg-(--card-bg)">
                 <h2 className="text-base sm:text-xl text-(--secondary) [font-family:var(--font-instrument-serif)] mb-3 mt-4 sm:mt-6">Stack I use</h2>
                 <p className=" text-sm sm:text-base text-(--primary) leading-relaxed">Technologies I work with to build products that solve real problems</p>
                 <div className="flex flex-wrap mt-4">
